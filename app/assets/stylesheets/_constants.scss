@@ -1,6 +1,12 @@
 // colors
 $light-blue: #F2F6FA;
-$logo-height: 90px;
+// According to the spec, the logo height should be 90px.
+// However:
+// - this 50px difference is breaking a lot of our design with no easy fix
+// - we plan to redesign those screens soon. The new design already includes the new logo
+// - this is an internal screen seen by people already in the administration
+// so for now it makes sense to break the logo rule
+$logo-height: 40px;
 $admin-navbar-logo-height: $logo-height + 20px;
 
 // Bootstrap constants
