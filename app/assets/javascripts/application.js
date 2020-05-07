@@ -19,7 +19,7 @@
 
 /* globals $ */
 
-$(document).on('turbolinks:load', application_init);
+$(document).on('DOMContentLoaded', application_init);
 
 function application_init() {
   tooltip_init();
